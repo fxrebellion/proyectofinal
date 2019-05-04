@@ -1,0 +1,116 @@
+
+.tablachollos{
+  
+    float: left;
+    width: 25%;
+    padding-top:5%;
+    padding-bottom:3%;
+    padding-left:4em;
+}
+
+.cuadradito{
+  display: table;
+  clear: both;
+  border-radius: 5%;
+  text-align:center;
+  width: 13em;
+  height: 15em;
+  box-shadow: 0px 1px 30px 1px #3a3a3a;
+}
+.cuadradito:hover{
+  box-shadow: 1px 1px 30px 1px #F9BE40;
+
+
+
+
+
+}
+.cuadradito h1{
+background-color: #3a3a3a;
+font-family: 'Racing Sans One', cursive;
+height:30px;
+color:white;
+}
+.cuadradito img{
+  box-shadow:0px 1px 1px 1px #F9BE40;
+
+}
+.cuadradito p{
+  background-color: #F9BE40;
+font-family: 'Racing Sans One', cursive;
+  
+}
+.cuadradito a{
+  font-family: 'Racing Sans One', cursive;
+  text-decoration : none;
+  color:white;
+}
+.cuadradito .enlace{
+background: #F9BE40;
+
+
+}
+
+
+@media screen and (max-width: 1412px) {
+  .tablachollos {
+    width: 50%;
+    padding-left:25%;
+  }
+}
+@media screen and (max-width: 1014px) {
+  .tablachollos {
+    width: 75%;
+    padding-left:25%;
+  }
+}
+
+
+@media screen and (max-width: 384px) {
+  .tablachollos {
+    width: 100%;
+    padding-left:25%;
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.tablachollos{
+
+  margin:auto;
+  border:1px solid black;
+  text-align:center;
+  border: solid;
+  width: 30%; 
+  height: 200px;
+  margin: 1%;
+  float: left; 
+  }
+  
+  @media (min-width:768px){
+      .tablachollos{ border: solid;
+          width: 90%; 
+          height: 200px;
+          margin: 5%; }
+        }
+
+*/
+

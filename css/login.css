@@ -1,0 +1,41 @@
+.formulario-login{
+    font-family: 'Racing Sans One', cursive;
+    padding-top:10%;
+    text-align: center;
+    border: 1px solid black;
+    padding-bottom:15%;
+    
+}
+.formulario-login input {
+    border-radius: 1rem;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border: none;
+    width: 40%;
+    background-color:#3a3a3a;
+    color: white;
+    font-family: 'Racing Sans One', cursive;
+  }
+.div-formulario-login{
+    border-radius: 2rem;
+    font-family: 'Racing Sans One', cursive;
+    border:1px solid black;
+    width:60%;
+    margin-left:20%;
+    padding-top:2%;
+    padding-bottom: 7%;
+    background-color:#F9BE40;
+
+}
+.fuente{
+    font-family: 'Racing Sans One', cursive; 
+    color:white;
+}
+.fuente2{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 300%;
+    color:white;
+}
+.social2{
+    font-size:300%;
+}

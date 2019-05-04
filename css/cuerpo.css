@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.barra_derecha{
+    border: 1px solid black;
+    grid-area: area3;
+    
+    
+}
+.chollos{
+    border: 1px solid black;
+    grid-area: area2;
+}
+.cuerpo{
+    padding-left:10%;
+    width:90%;
+    display:grid;
+    grid-template:"menu2"
+    "area2"
+    "area3"; 
+}
+.single_chollo{
+    border:1px solid black;
+    width: 20%;
+    text-align:left;
+    margin:1em;
+}
+.menu2{
+    display:none;
+}
+
+@media (min-width:768px){
+    .menu2{
+        display:block;
+        width:90%;
+        padding-left:10%;
+    }
+    .oculto{
+        display:none;
+    }
+    .cuerpo{
+        grid-template:"menu2 menu2 menu2 menu2"
+        "area2 area2 area2 area2";
+    }
+    .menu2 ul li{
+        
+    
+      background:#F9BE40;
+      padding:1em;
+       
+        
+        
+    }
+    .menu2 ul li:hover{
+        background:#3a3a3a;
+        
+        
+    }
+    .menu2 ul{
+        background-color: #F9BE40;
+        display:flex;
+        justify-content: center;
+        list-style: none;
+    }
+    .menu2 a{
+        
+        padding:1em;
+        font-family: 'Racing Sans One', cursive;
+        color:white;
+        text-decoration: none;
+    }
+}
+

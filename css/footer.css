@@ -1,0 +1,19 @@
+footer{
+    background-color: #3a3a3a;
+    height: 50px;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width:768px) {
+    footer{
+        color: white;
+       display:block;
+        height: 50px;
+        text-align: center;
+        align-items: center;  
+    }
+
+
+}

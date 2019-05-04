@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Racing Sans One', cursive;
+}
+
+
+header {
+    height: 50px;
+    background: #3a3a3a;
+    color: #F9BE40;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#btn-menu {
+    display: none;
+}
+
+.menu li{
+    border-bottom:3px solid #3a3a3a;
+}
+
+.menu{
+    
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 15%;
+    transform: translateX(-200%);
+    transition: all 0.3s;
+    text-align:center;
+    border:3px solid black;
+}
+
+header label {
+
+    font-size: 30px;  
+    cursor: pointer;
+    
+}
+
+
+.menu ul {
+    text-align:center;
+    
+    background: #F9BE40;/*#5DA9C4*/
+    list-style: none;
+   
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu a {
+    font-family: 'Racing Sans One', cursive;
+    display: block;
+    padding: 15px 20px;
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+.menu ul li:hover ul {
+    position: static;
+}
+#btn-menu:checked~.menu {
+    transform: translateX(0%);
+    
+}
+/*ESTILO PARA LA FOTO DE PERFIL Y EL LOGOTIPO*/
+.perfil img{
+width:100px;
+height: 100px;
+border-radius: 50%;
+box-shadow:0px 0px 4px 4px white;
+}
+.perfil:hover{
+    background: rgba(0, 0, 0);
+}
+.contenedor1 span{
+color:white;
+font-size: 25px;    
+}
+
+.perfil{
+    background-color: #3a3a3a;
+    display:flex;
+    justify-content: center;
+
+}
+.logo{
+    font-family: 'Racing Sans One', cursive;
+    text-decoration: none;
+    color:white;
+    font-size:38px;
+}
+.formulario-buscar span{
+    color:white;
+}
+
+/*ESTILO PARA LA BARRA DE BUSQUEDA*/
+
+.barra_buscar{
+    width:370px;
+}
+
+
+/*fin de estilo para barra de busqueda*/
+.registro a{
+    
+    color: white;
+}
+
+@media (max-width:768px) {
+    header label {
+        display: block;
+    }
+    .barra_buscar{
+        display:none;
+    }
+    .btnbtn-primary{
+        display:none;
+    }
+    .formulario-buscar span{
+        display:none;
+    }
+
+    .menu {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        transform: translateX(-200%);
+        transition: all 0.3s;
+    }
+
+    .menu ul {
+        display: block;
+        background: #555;
+        
+    }
+    .menu li{
+        border-bottom:3px solid black;
+    }
+
+    .menu ul li:hover ul {
+        position: static;
+        display: none;
+        
+
+    }
+    
+    .boton_buscar{
+        display:none;
+        color:black;
+        background-color:#F9BE40;
+    }
+
+    .menu a span {
+        position: absolute;
+        right: 5px;
+        color:white;
+        
+    }
+    .menu a{
+        color:white;
+    }
+
+    #btn-menu:checked~.menu {
+        transform: translateX(0%);
+    }
+
+    .menu ul ul {
+        background: rgba(0, 0, 0, 0.4);
+        
+    }
+
+    .menu ul ul a {
+        
+        padding: 15px 40px;
+    }
+
+}
